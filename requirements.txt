@@ -1,0 +1,26 @@
+# 声纹识别工作流程 - 依赖包列表
+# 版本号为推荐版本，可根据实际情况调整
+
+# 核心音频处理库
+librosa==0.10.0.post2
+soundfile==0.12.1
+numpy==1.24.3
+
+# 声纹识别模型框架
+modelscope==1.12.0
+torch==2.1.0
+torchaudio==2.1.0
+
+# 信号处理和数据科学
+scipy==1.11.4
+pandas==2.0.3
+scikit-learn==1.3.0
+
+# 文件操作和系统工具
+pathlib==1.0.1
+shutil==0.0.0
+
+# 其他工具库
+json5==0.9.14
+warnings==1.0.0
+tempfile==0.0.0
